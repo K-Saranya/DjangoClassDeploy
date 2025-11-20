@@ -1,0 +1,75 @@
+[
+  {
+    "model": "mydjangoapp.sampletable",
+    "pk": 1,
+    "fields": {
+      "user_name": "SampleUser",
+      "phone": "987654321",
+      "email": "test@gmail.com"
+    }
+  },
+  {
+    "model": "mydjangoapp.sampletable",
+    "pk": 2,
+    "fields": {
+      "user_name": "TestUser",
+      "phone": "9962571413",
+      "email": "nsramv@gmail.com"
+    }
+  },
+  {
+    "model": "mydjangoapp.categorytable",
+    "pk": 1,
+    "fields": { "category_name": "Women" }
+  },
+  {
+    "model": "mydjangoapp.categorytable",
+    "pk": 2,
+    "fields": { "category_name": "Men" }
+  },
+  {
+    "model": "mydjangoapp.categorytable",
+    "pk": 3,
+    "fields": { "category_name": "Boy" }
+  },
+  {
+    "model": "mydjangoapp.categorytable",
+    "pk": 4,
+    "fields": { "category_name": "Girl Child" }
+  },
+  {
+    "model": "mydjangoapp.categorytable",
+    "pk": 5,
+    "fields": { "category_name": "Boy Child" }
+  },
+  {
+    "model": "mydjangoapp.dressinfotable",
+    "pk": 1,
+    "fields": {
+      "dress_name": "Chudithar",
+      "dress_image": "https://citygirl.co.in/cdn/shop/files/WhatsAppImage2024-09-15at13.06.23.jpg?v=1726385860&width=1445",
+      "dress_price": "1000",
+      "category": 1
+    }
+  },
+  {
+    "model": "mydjangoapp.dressinfotable",
+    "pk": 2,
+    "fields": {
+      "dress_name": "Shirt",
+      "dress_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuC3vzZYgW6UUDmtFbCsWIeqAG9JrxomgGhw&s",
+      "dress_price": "800",
+      "category": 2
+    }
+  },
+  {
+    "model": "mydjangoapp.dressinfotable",
+    "pk": 3,
+    "fields": {
+      "dress_name": "Girl T-shirt",
+      "dress_image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRGUqABYPh5zlUqJw0IfGQXn4HGS2vt7opUsH12ohsOzFs1poDm3JC1elsXrDqYaqprMXz-Ee3zNTJSuA0tzr03dEicSEb3fTtFTpIwBMaZ_Wg6bmKBzHC2Pw",
+      "dress_price": "500",
+      "category": 4
+    }
+  }
+]
